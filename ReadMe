@@ -1,0 +1,17 @@
+LUAS Forecast
+
+I’ve tried to use the MVVM design  pattern on this project, used the JitPack from google for Live Data.
+He not used this dashing pattern before. So it was a challenge to me. In the past I used the MVP design
+pattern in most of the projects I’ve worked in. Implementing this project I’ve realised that I have to
+learn a lot more about reactive programming. What I’ve tried on this project is to implement the Live
+Data pattern. I wanted to have a local backup of the Luas statuss , in the case where the user opens the
+app and do not have internet connection . This app still has work to be done. There are some unsolved bugs
+ and some exceptions that need to be handled. I wanna say that I did not had enough time to give on this small
+ project. Started working on it yesterday and finished today. Hope you can all understand  the situation.
+I’ve had some problems while working on this project:
+	1) the Api provided reruns an xml response , and I only worked in the past with json responses, in the end ,
+	I ended up on converting the response to string, then using an xml to json converter , converted that xml string
+	to json and finally get the actual response object.
+    2) Another problem , witch I’m sure it can be soled , it’s that the Las Api returns a different type of response
+      when there is an exception  ( when there is no service, etc).
+
