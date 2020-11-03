@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:weightSum="4"
+    android:background="@android:color/tertiary_text_light">
+
+    <TextView
+        android:id="@+id/textView_dest"
+        style="@style/word_title"
+        android:text="Dest"
+        android:layout_weight="1"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="0dp"
+        android:gravity="center"
+       
+        />
+
+    <TextView
+        android:id="@+id/textView_destination"
+        style="@style/word_title"
+        android:text="Broombridge"
+        android:maxLines="1"
+        android:maxLength="11"
+        android:layout_weight="1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:ellipsize="end"
+        android:gravity="center|left"
+        android:layout_marginLeft="3dp"
+       
+         />
+
+    <TextView
+        android:id="@+id/textView_due_min"
+        style="@style/word_title"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="8"
+        android:layout_weight="1"
+        android:maxLines="1"
+        android:layout_marginLeft="3dp"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+         />
+    <TextView
+        android:id="@+id/textView_min"
+        android:layout_weight="1"
+        style="@style/word_title"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

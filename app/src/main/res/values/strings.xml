@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Luas forecast</string>
+    <string name="empty_not_saved">Luas server not updated</string>
+    <string name="refresh_data">Refresh</string>
+
+
+</resources>
